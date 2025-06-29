@@ -1,0 +1,81 @@
+.face{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 168.5px;
+    bottom: 168.5px;
+    left: 485px; 
+    right: 485px;
+     box-shadow: 15px 0 30px black;
+    
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+.mouth{
+    width: 50%;
+    height: 10px;
+    border-radius: 0 0 100px 100px;
+    background-color: black;
+    border: 3px solid black;
+    position: absolute;
+    top: 66%;
+    left: 25%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.left-eye, .right-eye {
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    top: 100px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+ .right-eye{
+    left: 60%;
+}
+.face:hover{
+    height: 550px;
+    width: 550px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 144.5px;
+    left:460px; 
+    box-shadow: 30px 0 70px black;
+    
+   
+}
+.face:hover .mouth{
+    width: 50%;
+    height: 12.73%;
+    background-color:rgb(196, 0, 0) ;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+
+    
+}
+.face:hover .left-eye{
+    width: 20%;
+    height: 2%;
+    border-radius: 10%;
+    top: 27.27%;
+    
+}
+.face:hover .right-eye{
+    width: 20%;
+    height: 2%;
+    border-radius: 10%;
+    top: 27.27% ;
+    
+    
+}
